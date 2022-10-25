@@ -11,3 +11,21 @@
   margin-bottom: 1rem;
   /* display: block; */
 }
+
+/* textEl.style.lineHeight = 1.5;
+    textEl.style.letterSpacing = '2px';
+    textEl.style.fontStyle = 'italic';
+    sectionTitleEl.style.fontSize = '4rem';
+    articleEl.style.backgroundColor = 'coral'; */
+
+.specialArt {
+  background-color: coral;
+}
+.specialArt .text {
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+.specialArt .author {
+  font-size: 4rem;
+}
