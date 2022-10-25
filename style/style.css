@@ -1,0 +1,13 @@
+@import "reset.css";
+
+.accTitle {
+  cursor: pointer;
+  background-color: rgb(219, 219, 219);
+}
+
+.accText {
+  display: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  /* display: block; */
+}
