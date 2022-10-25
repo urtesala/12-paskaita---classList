@@ -1,22 +1,35 @@
 @import "reset.css";
 
+body {
+  margin-bottom: 500px;
+}
+
 .accTitle {
   cursor: pointer;
   background-color: rgb(219, 219, 219);
 }
 
 .accText {
-  display: none;
+  /* display: none; */
   font-size: 1rem;
   margin-bottom: 1rem;
+
+  transition: all 0.8s;
+  height: 0;
+  overflow: hidden;
+}
+
+.open {
   /* display: block; */
+  height: 140px;
+  /* height: 100%; */
 }
 
 /* textEl.style.lineHeight = 1.5;
-    textEl.style.letterSpacing = '2px';
-    textEl.style.fontStyle = 'italic';
-    sectionTitleEl.style.fontSize = '4rem';
-    articleEl.style.backgroundColor = 'coral'; */
+  textEl.style.letterSpacing = '2px';
+  textEl.style.fontStyle = 'italic';
+  sectionTitleEl.style.fontSize = '4rem';
+  articleEl.style.backgroundColor = 'coral'; */
 
 .specialArt {
   background-color: coral;
@@ -28,4 +41,12 @@
 }
 .specialArt .author {
   font-size: 4rem;
+}
+
+.mainTitle {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+  background-color: rgb(201, 201, 201);
+  text-align: center;
 }
